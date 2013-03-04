@@ -2,7 +2,7 @@
 
 class Model_Account extends \Orm\Model
 {
-	protected static $_table_name = 'accounts';
+	protected static $_table_name = 'users';
 
 	protected static $_properties = array(
 		'id',
@@ -34,5 +34,10 @@ class Model_Account extends \Orm\Model
 			'first_name' => $data->fname,
 			
 		));
+	}
+
+	public static function get_user($id)
+	{
+		return static::find($id);
 	}
 }

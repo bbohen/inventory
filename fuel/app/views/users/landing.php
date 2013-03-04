@@ -17,13 +17,13 @@
 	</div>
 	<div class="span4 well">
     <h2>Sign In</h2>
-    <form autocomplete="off">
+    <?= Form::open(array('action' => 'login', 'method' => 'post', 'autocomplete' => 'off')); ?>
 	    <label>Username</label>
 	    <input type="text" name="username" class="span4">
 	    <label>Password</label>
 	    <input type="password" name="password" class="span4">
 	    <input type="submit" value="Sign In" class="btn btn-primary pull-right">
 	    <div class="clearfix"></div>
-    </form>
+    <?= Form::close(); ?>
 	</div>
 </div>

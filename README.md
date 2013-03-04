@@ -1,5 +1,2 @@
-Inventory
-=========
-
-Inventory System Demo
+Inventory System
 ---------------------

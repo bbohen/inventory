@@ -6,5 +6,8 @@ return array(
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
 
 	'user_landing' => 'account/user_landing',
-	'register' => 'account/register'
+	'register' => 'account/register',
+	'login' => 'account/login',
+	'logout' => 'account/logout',
+	'manifest' => 'products/distributor_list'
 );

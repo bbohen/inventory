@@ -7,6 +7,7 @@ class Model_Product extends \Orm\Model
 	protected static $_properties = array( 
 		'id',
 		'title',
+		'quantity',
 		'image'
 	);
 
