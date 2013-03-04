@@ -1,1 +1,3 @@
-<h1>Hello World</h1>
+<?php foreach($products as $product) : ?>
+		<h2><?= $product->title ?></h2>
+<?php endforeach ?>

@@ -1,0 +1,10 @@
+.login-link, .login-link:visited{
+	color: white;
+	text-decoration: none;
+}
+
+#or_label{
+	position: relative;
+	top: 20px;
+	left: 12px;
+}

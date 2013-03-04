@@ -4,10 +4,13 @@ class Controller_Home extends Controller_App
 {
 	public function action_index()
 	{
-		$this->template->title = 'Brad Bohen';
-		// $this->template->content = View::forge('home/index', array(
-		// 	'projects' => Model_Project::get_projects()
-		// ));
+		$this->template->title = 'Inventory Demo';
+
+		$this->template->content = View::forge('home/index', array(
+			'products' => Model_Product::get_products()
+		));
+
+		//$this->template->content = View::forge('home/index');
 	}
 
 	public function action_hello()

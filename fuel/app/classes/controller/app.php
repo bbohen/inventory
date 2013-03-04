@@ -6,8 +6,8 @@ class Controller_APP extends Controller_Base
 	{
 		parent::before();
 
-		$this->_init_assets();
 		$this->_init_nav();
+		$this->_init_assets();
 		$this->_init_footer();
 	}
 
