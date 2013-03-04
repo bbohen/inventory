@@ -1,2 +1,5 @@
-inventory
+Inventory
 =========
+
+Inventory System Demo
+---------------------
