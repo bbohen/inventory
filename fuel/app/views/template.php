@@ -22,5 +22,6 @@
 				</div>
 			<?= $footer ?>
 	</body>
+	<?= Asset::js('main.js') ?>
 	<?= Asset::js('bootstrap.js') ?>
 </html>

@@ -1,3 +1,6 @@
+/* Custom CSS to overwrite Bootstrap */
+/* Clean Me */
+
 .login-link, .login-link:visited{
 	color: white;
 	text-decoration: none;
@@ -7,4 +10,35 @@
 	position: relative;
 	top: 20px;
 	left: 12px;
+}
+
+#head_crumb, #head_crumb:visited{
+	color: black;
+}
+
+.nav-notice{
+	position: relative;
+	right: 7px;
+	bottom: 1px;
+}
+
+.create_well{
+	
+}
+
+.create_form{
+	min-height: 300px;
+}
+
+.create_submit{
+	position: absolute;
+	top: 330px;
+}
+
+.contain-create legend{
+	padding-bottom: 20px;
+}
+
+#blah{
+	display: none;
 }

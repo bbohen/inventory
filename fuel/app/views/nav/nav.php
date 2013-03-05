@@ -1,15 +1,18 @@
 <div class="navbar navbar-inverse">
       <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="<?= Uri::base()?>">We Distribute Furniture</a>     
-   	     <?php if ( $account ): ?>
-        	<p class="navbar-text pull-right">
-        		Your logged in as <?= $account->email ?> <?= Html::anchor('logout', 'Logout?') ?></p>
+        <div class="container-fluid">
+          <a class="brand" href="<?= Uri::base()?>">We Distribute Furniture</a>
+          <ul class= "nav pull-right">
+          <?php if ( $account ): ?>
+          <p class="nav-notice navbar-text pull-left"> Logged in as <?= $account->email ?> </p>     
+        		<li><?= Html::anchor('manifest', 'Inventory') ?></li>
+        		<li><?= Html::anchor('logout', 'Logout') ?></li>
           <?php else: ?>
-          	<a class="login-link navbar-text pull-right" href="user_landing">
+          	<li><a class="login-link navbar-text pull-right" href="user_landing">
              	Distributor Log In
-          	</a>
+          	</a></li>
           <?php endif; ?>  
+      	  </ul>
           
         </div>
       </div>

@@ -9,5 +9,7 @@ return array(
 	'register' => 'account/register',
 	'login' => 'account/login',
 	'logout' => 'account/logout',
-	'manifest' => 'products/distributor_list'
+
+	'manifest' => 'products/distributor_list',
+	'create' => 'products/create'
 );

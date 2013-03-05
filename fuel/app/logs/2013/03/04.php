@@ -53,3 +53,12 @@ ERROR - 2013-03-04 15:28:38 --> Error - You Need To Be Logged In in /Users/bbohe
 ERROR - 2013-03-04 15:36:59 --> Parsing Error - syntax error, unexpected 'login' (T_STRING), expecting ',' or ';' in /Users/bbohen/Sites/inventory/fuel/app/views/nav/nav.php on line 11
 ERROR - 2013-03-04 15:37:35 --> Error - Call to undefined method Fuel\Core\View::logged_in() in /Users/bbohen/Sites/inventory/fuel/app/views/nav/nav.php on line 10
 ERROR - 2013-03-04 15:40:42 --> Parsing Error - syntax error, unexpected end of file in /Users/bbohen/Sites/inventory/fuel/app/views/nav/nav.php on line 16
+ERROR - 2013-03-04 16:47:58 --> 8 - Trying to get property of non-object in /Users/bbohen/Sites/inventory/fuel/app/views/nav/nav.php on line 6
+ERROR - 2013-03-04 17:28:49 --> Parsing Error - syntax error, unexpected ''create'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/bbohen/Sites/inventory/fuel/app/config/routes.php on line 14
+ERROR - 2013-03-04 17:39:01 --> Error - You Need To Be Logged In in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 15
+ERROR - 2013-03-04 17:39:26 --> Error - You Need To Be Logged In in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 15
+ERROR - 2013-03-04 17:45:13 --> Error - You Need To Be Logged In in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 15
+ERROR - 2013-03-04 19:13:45 --> Error - You Need To Be Logged In in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 15
+ERROR - 2013-03-04 19:13:49 --> Error - You Need To Be Logged In in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 15
+ERROR - 2013-03-04 19:13:55 --> Error - You Need To Be Logged In in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 15
+ERROR - 2013-03-04 20:17:32 --> 2 - Attempt to assign property of non-object in /Users/bbohen/Sites/inventory/fuel/app/classes/controller/products.php on line 22
