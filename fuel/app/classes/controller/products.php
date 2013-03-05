@@ -39,5 +39,12 @@ class Controller_Products extends Controller_APP
 		$quantity = Input::post("quantity");
 
 		$new_product = Model_Product::add_product($product_name, $user_id, $product_number, $quantity);
+
+		$image = Input::file();
+		$uploaded = Model_Product::handle_image($new_product->id,$image);
+		if($uploaded)
+		{
+			$this->redirect('manifest', 'success', 'You Added An Item');
+		}
 	}
 }

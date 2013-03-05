@@ -24,17 +24,17 @@
             </div><!--/span-->
             <div class="span6 bgcolor">
               <label>Possible Field</label>
-              <input type="text" class="span12" placeholder="">    
+              <input type="text" class="span12" placeholder="TBA">    
             </div><!--/span-->
           </div><!--/row-->
           <div class="row-fluid">
             <div class="span6 bgcolor">
               <label>Possible Field</label>
-              <input type="text" class="span12" placeholder="">    
+              <input type="text" class="span12" placeholder="TBA">    
             </div><!--/span-->
             <div class="span6 bgcolor">
               <label>Possible Field</label>
-              <input type="text" class="span12" placeholder="">        
+              <input type="text" class="span12" placeholder="TBA">        
             </div><!--/span-->
           </div><!--/row-->                               
         </div><!--/span-->
@@ -43,7 +43,7 @@
         	<div class="row-fluid">
         		<div class="span12 lightblue">
               <label>Product Photo</label>
-              <input name="avatar" type="file" class="" onchange="readURL(this);" />
+              <input name="product_photo" type="file" class="" onchange="readURL(this);" />
               <img id="blah" src="#" alt="your image" />
 				<!-- <input class="button button-primary" name="commit" type="submit" value="Upload Image" />  -->
             </div><!--/span-->
