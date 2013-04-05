@@ -1,5 +1,5 @@
 /* Custom CSS to overwrite Bootstrap */
-/* Clean Me */
+/* Organize me for I am messy */
 
 .login-link, .login-link:visited{
 	color: white;
@@ -40,5 +40,13 @@
 }
 
 #blah{
+	display: none;
+}
+
+#edit-btn{
+	margin-right: 10px;
+}
+
+.alert{
 	display: none;
 }
